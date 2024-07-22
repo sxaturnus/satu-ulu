@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Waktu pembuatan: 17 Jul 2024 pada 12.41
+-- Waktu pembuatan: 22 Jul 2024 pada 10.17
 -- Versi server: 10.4.32-MariaDB
 -- Versi PHP: 8.2.12
 
@@ -101,13 +101,11 @@ CREATE TABLE `auth` (
 --
 
 INSERT INTO `auth` (`id_auth`, `nik`, `nama`, `tempat_lahir`, `tgl_lahir`, `gender`, `alamat`, `rw`, `rt`, `agama`, `telp`, `email`, `password`, `role`) VALUES
-(6, '1603070507240001', 'Eldi', 'Palembang', '2004-08-21', 'Laki-Laki', 'Jakarta', '', '', 'Islam', '08972939058', 'eldi@gmail.com', '19faa1d580716a6ddeba6dbcf5f5daca', 'Lurah'),
-(7, '1603072608240002', 'niniss', 'Tanjung Enim', '2006-08-25', 'Perempuan', 'Jl. Kompas', '1', '4', 'Islam', '082268728285', 'annisa@gmail.com', 'd57a6297343a014d7f50569a873cefc8', 'RT'),
-(8, '1603071701040005', 'Bill Gates', 'New York', '2024-07-02', 'Laki-Laki', 'USA', '1', '2', 'Kristen Katolik', '089869626727', 'bill.gates@gmail.com', 'Billionair3', 'Warga'),
+(6, '1603070507240001', 'Admin', 'Palembang', '2004-09-28', 'Laki-Laki', 'Jakarta', '', '', 'Islam', '08932539007', 'admin@gmail.com', '19faa1d580716a6ddeba6dbcf5f5daca', 'Lurah'),
+(7, '1603072608240002', 'Pak RT', 'Bandung', '2006-08-25', 'Laki-Laki', 'Jl. Mercu Buana', '1', '4', 'Islam', '082268728285', 'ketuart@gmail.com', 'd57a6297343a014d7f50569a873cefc8', 'RT'),
 (9, '1603073112050005', 'Dalmunch', 'Singapore', '2024-06-05', 'Perempuan', 'Jl. Merdeka Selatan, Jakarta', '1', '4', 'Islam', '082260008000', 'dalmunch@gmail.com', '46e6274e8ed697c8bb6c5d2fdf616df0', 'Warga'),
 (10, '1608091407240008', 'Max Verstappen', 'Hasselt, Belgia', '1997-09-30', 'Laki-laki', 'Palembang', '1', '4', 'Kristen Katolik', '1244444444', 'max.verstappen@gmail.com', '$2y$10$eBZgdyu.vhOtiRT0aguHc.EgciXR7V8EjMuorPbbDfKFIHMAeCC2a', 'Warga'),
 (11, '1607082103040004', 'Donald Trump', 'Washington DC', '2004-03-21', 'Laki-laki', '1600 Pennsylvania Ave NW Washington, DC 20500', '2', '1', 'Kristen Katolik', '085779317279', 'donald.trump@gmail.com', '46e6274e8ed697c8bb6c5d2fdf616df0', 'Warga'),
-(12, '1210073003030001', 'Fadhli', 'Palembang', '2004-02-13', 'Laki-laki', 'Jalan AKBP Cek Agus, 8 Ilir, Ilir Timur II, 8 Ilir, Kec. Ilir Tim. II, Kota Palembang, Sumatera Selatan 30163', '', '', 'Islam', '0897293905812', 'fadhli@gmail.com', '46e6274e8ed697c8bb6c5d2fdf616df0', 'rt'),
 (14, '1703080506040002', 'Raymond Chin', 'Jakarta', '2004-06-05', 'Laki-laki', 'jakarta', '1', '4', 'Kristen Katolik', '0856283805809', 'raymond@gmail.com', 'a50b656aa7449cb514b85f5fc6be5fcb', 'Warga');
 
 -- --------------------------------------------------------
